@@ -21,11 +21,11 @@
     </nav>
 
     <section>
-        <head>
-            <h1>BOOTCAMP DNC</h1>
-            <h2>
+        <head class="headSelection">
+            <h1 id="textTitleSection">BOOTCAMP DNC</h1>
+            <h2 id="textPSection" >
                 Esse será um evento exclusivo para todos os alunos
-                <br>da<b>DNC</b>, que querem <span class="invert" >acelerar a carreira</span>com uma
+                <br>da <b>DNC</b>, que querem <span class="invert" >acelerar a carreira</span>com uma
                 <br>semana intensiva de conteúdo de mercado entre
                 <br> <span class="invert" >BACK-END, FRONT-END & BANCO DE DADOS.</span>
             </h2>
@@ -33,18 +33,19 @@
         </head>
         <form action="">
             <div class="form-group">
-                <label>Nome:</label>
+                <label id="marginForm">Nome:</label> <br>
                 <input type="text" placeholder="Insira seu nome aqui"><br>
             </div>
 
             <div class="form-group">
-                <label>Sobrenome:</label>
-                <input type="text" placeholder="Insira seu sobrenome aqui"><br>
+                <label>Sobrenome:</label> <br>
+                <input type="text" placeholder="Insira seu sobrenome aqui">
             </div>
 
             <div class="form-group">
-                <label>Área de Interesse:</label>
+                <label>Área de Interesse:</label> <br>
                 <div>
+                    <div class="boxForm" > 
                     <input type="checkbox" value="front" >
                     <label>Front-end</label>
                     <input type="checkbox" value="back" >
@@ -52,28 +53,83 @@
                     <input type="checkbox" value="banco" >
                     <label>Banco de Dados</label>
                 </div>
+                </div>
             </div>
 
             <div class="form-group">
-                <label>E-mail:</label>:</label>
-                <input type="email" placeholder="(99) 9999-9999"><br>
+                <label>E-mail:</label>:</label> <br>
+                <input type="email" placeholder="E-mail"><br>
             </div>
 
             <div class="form-group">
-                <label>Telefone:</label>
-                <input type="text" placeholder="(99) 9999-9999"><br>
+                <label>Telefone:</label> <br>
+                <input type="tel" placeholder="(99) 9999-9999"><br>
             </div>
 
             <div class="form-group">
-                <label>Insira uma frase criativa aqui:</label>
+                <label>Insira uma frase criativa aqui:</label> <br>
                 <input type="text" placeholder="Qual frase criativa você gostaria de falar? :)"><br>
             </div>
 
             <input type="submit" value="Login">
 
-
         </form>
     </section>
-    </div>
+    <footer>
+        <div class="linha1" >
+            <nav>
+                <h5 id="escola" >Escolas</h5>
+                <ul>
+                    <li>
+                        <a href="">Formação em Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Marketing</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Dados</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Projetos</a>
+                    </li>
+                    <li>
+                        <a href="">Formação em Produto</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            <nav>
+                <h5>Sobre a DNC</h5>
+                <ul>
+                    <li>
+                        <a href="">História</a>
+                    </li>
+                    <li>
+                        <a href="">Missão e Valores</a>
+                    </li>
+                    <li>
+                        <a href="">Trabalhe Conosco</a>
+                    </li>
+                    <li>
+                        <a href="">Conteúdo Gratuito</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="endereço">
+                © 2022 DTC Treinamentos & Consultoria 
+                LTDA | CNPJ: 27.995.577/0001-37 | R. 
+                Justino Cobra, 61 – Vila Ema | São José dos 
+                Campos – SP | CEP 12243-030
+            </div>
+
+        </div>
+        <div class="linha2">
+           <a href="" id="termo">Termos de uso</a>
+           <a href="">Política de Privacidade</a>
+
+        </div>
+    </footer>
+    
 </body>
 </html>
